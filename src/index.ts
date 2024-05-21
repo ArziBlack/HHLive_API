@@ -15,7 +15,7 @@ const salt = genSaltSync(10);
 interface User {
   id: string;
   email: string;
-  hashed_password: string;
+  hashed_password: string; 
 }
 const USERS: User[] = [];
 
